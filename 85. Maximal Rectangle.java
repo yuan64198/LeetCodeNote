@@ -10,6 +10,8 @@
  * If after we go through the whole array, there's still some values in the stack,
  * we pop out them and calculate the area using this formula:
  * area = val[stack.pop()]*(val.length-stack.peek()-1);
+ *
+ * And, we only need to apply this algorithm to each row of the matrix here.
  */
 
 class Solution {
